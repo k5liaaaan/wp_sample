@@ -1,0 +1,55 @@
+.singleBox img{
+    display: block;
+}
+.singleBoxTitle{
+	text-align: center;
+    color: #0048cd;
+}
+.singleBoxTime{
+	display: flex;
+    justify-content: flex-end;
+}
+
+/*PC*/
+
+@media screen and (min-width: 768px){
+	.singleBox{
+		padding: 20px;
+		width: 80%;
+    	margin: 30px auto;
+	}
+	.singleBox img{
+    	margin: 30px auto;
+	}
+	.singleBoxTitle{
+		font-size: 36px;
+	}
+	.singleBoxTime{
+		margin: 10px 0;
+	}
+	.singleBoxText{
+		font-size: 18px;
+    	line-height: 50px;
+	}
+}
+
+/*smp*/
+
+@media screen and (max-width: 767px){
+	.singleBox{
+		padding: 4vw;
+	}
+	.singleBox img{
+    	margin: 4vw auto;
+	}
+	.singleBoxTitle{
+		font-size: 8vw;
+	}
+	.singleBoxTime{
+		margin: 10px 0;
+	}
+	.singleBoxText{
+		font-size: 4vw;
+    	line-height: 12vw;
+	}
+}
