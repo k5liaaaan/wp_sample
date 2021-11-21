@@ -1,0 +1,95 @@
+.archiveTitle{
+	text-align: center;
+}
+.archiveBox{
+    background: #fff;
+    border: solid 1px #ddd;
+}
+.archiveBoxTitle{
+	color: #0048cd;
+}
+.archiveBoxTime{
+	color: #000;
+}
+.archiveBoxText{
+	color: #000;
+}
+
+.pagination{
+	width: 100%;
+}
+.pagination ul{
+	display: flex;
+	justify-content: center;
+}
+.pagination ul li{
+	color: #337ab7;
+}
+.current{
+	color: #808080;
+}
+
+/*PC*/
+
+@media screen and (min-width: 768px){
+	.archiveTitle{
+		font-size: 30px;
+    	margin: 20px 0;
+	}
+	.archiveBox{
+		margin: 0 auto;
+	    margin-bottom: 20px;
+	    padding: 20px;
+	    width: 50%;
+	}
+	.archiveBoxData{
+		display: flex;
+    	align-items: center;
+	}
+	.archiveBoxTitle{
+		margin: 0px 20px;
+    	font-size: 26px;
+	}
+	.archiveBoxTime{
+		font-size: 12px;
+	}
+	.archiveBoxText{
+		font-size: 18px;
+	}
+
+	.pagination ul li{
+		margin-right: 20px;
+    	font-size: 20px;
+	}
+}
+
+/*smp*/
+@media screen and (max-width: 767px){
+	.archiveTitle{
+		font-size: 8vw;
+    	margin: 3vw 0;
+	}
+	.archiveBox{
+		margin: 4vw 3vw;
+	    padding: 2vw 4vw;
+	    box-sizing: border-box;
+	}
+	.archiveBoxData{
+		text-align: center;
+	}
+	.archiveBoxTitle{
+    	font-size: 6vw;
+	}
+	.archiveBoxTime{
+		font-size: 4vw;
+    	margin: 0.6vw 0;
+	}
+	.archiveBoxText{
+		font-size: 3vw;
+	}
+
+	.pagination ul li{
+		margin-right: 20px;
+    	font-size: 20px;
+	}
+}
