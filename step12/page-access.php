@@ -6,8 +6,7 @@
 <meta name="keywords" content="サンプル,練習用,メニュー" />
 <meta name="description" content="こちらは練習用に作成されたサンプルサイトです。" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" href="css/common.css" type="text/css" media="screen,tv" />
-<link rel="stylesheet" href="css/access.css" type="text/css" media="screen,tv" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/access.css" type="text/css" media="screen,tv" />
 <?php wp_head(); ?>
 </head>
 
