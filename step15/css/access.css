@@ -1,0 +1,80 @@
+.access-map{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #ddd;
+}
+.store-box h3{
+    text-align: center;
+}
+.store-box dl dt{
+    background: #444444;
+    color: #fff;
+}
+
+/*PC*/
+
+@media screen and (min-width: 768px){
+    #access-content{
+        width: 900px;
+        margin: 20px auto;
+    }
+    .access-map{
+        margin: 15px auto;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .accessFlame{
+        width: 400px;
+        height: 300px;   
+    }
+    .store-box{
+        width: 280px;
+    }
+    .store-box h3{
+        margin: 5px 0;
+        font-size: 18px;
+    }
+    .store-box dl dt{
+        font-size: 13px;
+        padding-left: 5px;
+    }
+    .store-box dl dd{
+        font-size: 11px;
+        padding: 5px;
+    }
+}
+
+/*smp*/
+
+@media screen and (max-width: 767px){
+    #access-content{
+        width: 90%;
+        margin: 5vw auto;
+    }
+    .access-map{
+        margin: 3vw auto;
+        padding: 2vw 0;
+        flex-wrap: wrap;
+    }
+    .accessFlame{
+        width: 95%;
+        height: 45vw;
+    }
+    .store-box{
+        width: 95%;
+        margin-top: 2vw;
+    }
+    .store-box h3{
+        margin: 1vw 0;
+        font-size: 4.5vw;
+    }
+    .store-box dl dt{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .store-box dl dd{
+        font-size: 4vw;
+        padding: 1vw;
+    }
+}

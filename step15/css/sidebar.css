@@ -1,0 +1,20 @@
+
+
+/*PC*/
+@media screen and (min-width: 768px){
+    #sidebar-content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sidebar-content_main{
+        width: 60%;
+    }
+    #sidebar{
+        width: 30%;
+    }
+}
+
+/*smp*/
+@media screen and (max-width: 767px){
+
+}
